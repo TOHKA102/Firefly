@@ -23,7 +23,7 @@ export const galleryConfig: GalleryConfig = {
 			location: "约会大作战",
 			date: "2026-06-19",
 			tags: ["约会大作战", "十香"],
-		},
+		}, 
 		
 	],
 
