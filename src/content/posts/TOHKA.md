@@ -1,11 +1,11 @@
 ---
-title: "这是我的第一篇博客文章" #标题
-published: 2026-06-19   #发布时间
-description: "Blog" #外部内容
-image: ./images/b1.jpg  # 填图片链接可以给文章加个封面图，不填就使用默认的
-tags: ["随笔", "日常"] # 文章的标签
-category: "记录" # 文章分类管理
-draft: false # 如果写 true 就会变成草稿，网页上不显示
+title: "这是我的第一篇博客文章" 
+published: 2026-06-19   
+description: "Blog" 
+image: ./images/b1.jpg  
+tags: ["随笔", "日常"] 
+category: "记录" 
+draft: false 
 ---
 
 ### 嘛，其实还挺不错的
