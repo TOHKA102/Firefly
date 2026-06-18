@@ -1,0 +1,195 @@
+0 verbose cli D:\nodejs\node.exe D:\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@11.12.1
+2 info using node@v24.15.0
+3 silly config load:file:D:\nodejs\node_modules\npm\npmrc
+4 silly config load:file:D:\blog\Firefly\.npmrc
+5 silly config load:file:C:\Users\TOHKA\.npmrc
+6 silly config load:file:D:\nodejs\node_global\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--no-audit" "--no-fund" "--cache" "./.npm-cache" "--registry" "https://registry.npmmirror.com"
+9 verbose logfile logs-max:10 dir:D:\blog\Firefly\.npm-cache\_logs\2026-06-18T15_11_26_677Z-
+10 verbose logfile D:\blog\Firefly\.npm-cache\_logs\2026-06-18T15_11_26_677Z-debug-0.log
+11 warn Unknown project config "manage-package-manager-versions". This will stop working in the next major version of npm. See `npm help npmrc` for supported config options.
+12 silly logfile done cleaning log files
+13 silly packumentCache heap:4496293888 maxSize:1124073472 maxEntrySize:562036736
+14 silly idealTree buildDeps
+15 silly fetch manifest @astrojs/check@^0.9.9
+16 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fcheck cache-miss
+17 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fcheck 245ms (cache miss)
+18 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fcheck set size:16872 disposed:false
+19 silly fetch manifest typescript@^5.9.2
+20 silly packumentCache full:https://registry.npmmirror.com/typescript cache-miss
+21 http fetch GET 200 https://registry.npmmirror.com/npm 333ms
+22 http fetch GET 200 https://registry.npmmirror.com/typescript 344ms (cache miss)
+23 silly packumentCache full:https://registry.npmmirror.com/typescript set size:1687175 disposed:false
+24 silly fetch manifest @astrojs/compiler-rs@^0.2.0
+25 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fcompiler-rs cache-miss
+26 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fcompiler-rs 94ms (cache miss)
+27 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fcompiler-rs set size:7649 disposed:false
+28 silly fetch manifest @astrojs/mdx@^5.0.6
+29 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fmdx cache-miss
+30 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fmdx 99ms (cache miss)
+31 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fmdx set size:164460 disposed:false
+32 silly fetch manifest astro@6.3.5
+33 silly packumentCache full:https://registry.npmmirror.com/astro cache-miss
+34 http fetch GET 200 https://registry.npmmirror.com/astro 236ms (cache miss)
+35 silly packumentCache full:https://registry.npmmirror.com/astro set size:1164141 disposed:false
+36 silly fetch manifest @astrojs/rss@^4.0.18
+37 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2frss cache-miss
+38 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2frss 95ms (cache miss)
+39 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2frss set size:63891 disposed:false
+40 silly fetch manifest @astrojs/sitemap@^3.7.2
+41 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fsitemap cache-miss
+42 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fsitemap 101ms (cache miss)
+43 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fsitemap set size:54449 disposed:false
+44 silly fetch manifest @astrojs/svelte@8.1.1
+45 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fsvelte cache-miss
+46 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fsvelte 140ms (cache miss)
+47 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fsvelte set size:82682 disposed:false
+48 silly fetch manifest svelte@^5.55.8
+49 silly packumentCache full:https://registry.npmmirror.com/svelte cache-miss
+50 http fetch GET 200 https://registry.npmmirror.com/svelte 88ms (cache miss)
+51 silly packumentCache full:https://registry.npmmirror.com/svelte set size:505776 disposed:false
+52 silly fetch manifest @expressive-code/core@^0.42.0
+53 silly packumentCache full:https://registry.npmmirror.com/@expressive-code%2fcore cache-miss
+54 http fetch GET 200 https://registry.npmmirror.com/@expressive-code%2fcore 147ms (cache miss)
+55 silly packumentCache full:https://registry.npmmirror.com/@expressive-code%2fcore set size:36878 disposed:false
+56 silly fetch manifest @expressive-code/plugin-collapsible-sections@^0.42.0
+57 silly packumentCache full:https://registry.npmmirror.com/@expressive-code%2fplugin-collapsible-sections cache-miss
+58 http fetch GET 200 https://registry.npmmirror.com/@expressive-code%2fplugin-collapsible-sections 103ms (cache miss)
+59 silly packumentCache full:https://registry.npmmirror.com/@expressive-code%2fplugin-collapsible-sections set size:27607 disposed:false
+60 silly fetch manifest @expressive-code/plugin-line-numbers@^0.42.0
+61 silly packumentCache full:https://registry.npmmirror.com/@expressive-code%2fplugin-line-numbers cache-miss
+62 http fetch GET 200 https://registry.npmmirror.com/@expressive-code%2fplugin-line-numbers 108ms (cache miss)
+63 silly packumentCache full:https://registry.npmmirror.com/@expressive-code%2fplugin-line-numbers set size:16800 disposed:false
+64 silly fetch manifest @fancyapps/ui@^6.1.14
+65 silly packumentCache full:https://registry.npmmirror.com/@fancyapps%2fui cache-miss
+66 http fetch GET 200 https://registry.npmmirror.com/@fancyapps%2fui 110ms (cache miss)
+67 silly packumentCache full:https://registry.npmmirror.com/@fancyapps%2fui set size:68329 disposed:false
+68 silly fetch manifest @fontsource-variable/jetbrains-mono@^5.2.6
+69 silly packumentCache full:https://registry.npmmirror.com/@fontsource-variable%2fjetbrains-mono cache-miss
+70 http fetch GET 200 https://registry.npmmirror.com/@fontsource-variable%2fjetbrains-mono 108ms (cache miss)
+71 silly packumentCache full:https://registry.npmmirror.com/@fontsource-variable%2fjetbrains-mono set size:13247 disposed:false
+72 silly fetch manifest @fontsource/roboto@^5.2.10
+73 silly packumentCache full:https://registry.npmmirror.com/@fontsource%2froboto cache-miss
+74 http fetch GET 200 https://registry.npmmirror.com/@fontsource%2froboto 99ms (cache miss)
+75 silly packumentCache full:https://registry.npmmirror.com/@fontsource%2froboto set size:19573 disposed:false
+76 silly fetch manifest @iconify-json/fa7-brands@^1.2.2
+77 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2ffa7-brands cache-miss
+78 http fetch GET 200 https://registry.npmmirror.com/@iconify-json%2ffa7-brands 88ms (cache miss)
+79 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2ffa7-brands set size:2194 disposed:false
+80 silly fetch manifest @iconify-json/fa7-regular@^1.2.3
+81 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2ffa7-regular cache-miss
+82 http fetch GET 200 https://registry.npmmirror.com/@iconify-json%2ffa7-regular 117ms (cache miss)
+83 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2ffa7-regular set size:2520 disposed:false
+84 silly fetch manifest @iconify-json/fa7-solid@^1.2.4
+85 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2ffa7-solid cache-miss
+86 http fetch GET 200 https://registry.npmmirror.com/@iconify-json%2ffa7-solid 253ms (cache miss)
+87 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2ffa7-solid set size:2869 disposed:false
+88 silly fetch manifest @iconify-json/material-symbols@^1.2.73
+89 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2fmaterial-symbols cache-miss
+90 http fetch GET 200 https://registry.npmmirror.com/@iconify-json%2fmaterial-symbols 124ms (cache miss)
+91 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2fmaterial-symbols set size:80406 disposed:false
+92 silly fetch manifest @iconify-json/mingcute@^1.2.7
+93 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2fmingcute cache-miss
+94 http fetch GET 200 https://registry.npmmirror.com/@iconify-json%2fmingcute 90ms (cache miss)
+95 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2fmingcute set size:15156 disposed:false
+96 silly fetch manifest @iconify-json/simple-icons@^1.2.83
+97 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2fsimple-icons cache-miss
+98 http fetch GET 200 https://registry.npmmirror.com/@iconify-json%2fsimple-icons 93ms (cache miss)
+99 silly packumentCache full:https://registry.npmmirror.com/@iconify-json%2fsimple-icons set size:107756 disposed:false
+100 silly fetch manifest @iconify/utils@^3.1.1
+101 silly packumentCache full:https://registry.npmmirror.com/@iconify%2futils cache-miss
+102 http fetch GET 200 https://registry.npmmirror.com/@iconify%2futils 111ms (cache miss)
+103 silly packumentCache full:https://registry.npmmirror.com/@iconify%2futils set size:113852 disposed:false
+104 silly fetch manifest @swup/astro@^1.8.0
+105 silly packumentCache full:https://registry.npmmirror.com/@swup%2fastro cache-miss
+106 http fetch GET 200 https://registry.npmmirror.com/@swup%2fastro 99ms (cache miss)
+107 silly packumentCache full:https://registry.npmmirror.com/@swup%2fastro set size:18038 disposed:false
+108 silly fetch manifest @tailwindcss/typography@^0.5.16
+109 silly packumentCache full:https://registry.npmmirror.com/@tailwindcss%2ftypography cache-miss
+110 http fetch GET 200 https://registry.npmmirror.com/@tailwindcss%2ftypography 61ms (cache miss)
+111 silly packumentCache full:https://registry.npmmirror.com/@tailwindcss%2ftypography set size:103692 disposed:false
+112 silly fetch manifest tailwindcss@^4.3.0
+113 silly packumentCache full:https://registry.npmmirror.com/tailwindcss cache-miss
+114 http fetch GET 200 https://registry.npmmirror.com/tailwindcss 246ms (cache miss)
+115 silly packumentCache full:https://registry.npmmirror.com/tailwindcss set size:1665769 disposed:false
+116 silly fetch manifest astro-expressive-code@^0.42.0
+117 silly packumentCache full:https://registry.npmmirror.com/astro-expressive-code cache-miss
+118 http fetch GET 200 https://registry.npmmirror.com/astro-expressive-code 113ms (cache miss)
+119 silly packumentCache full:https://registry.npmmirror.com/astro-expressive-code set size:38687 disposed:false
+120 silly fetch manifest astro-icon@^1.1.5
+121 silly packumentCache full:https://registry.npmmirror.com/astro-icon cache-miss
+122 http fetch GET 200 https://registry.npmmirror.com/astro-icon 107ms (cache miss)
+123 silly packumentCache full:https://registry.npmmirror.com/astro-icon set size:25552 disposed:false
+124 silly fetch manifest dayjs@^1.11.20
+125 silly packumentCache full:https://registry.npmmirror.com/dayjs cache-miss
+126 http fetch GET 200 https://registry.npmmirror.com/dayjs 58ms (cache miss)
+127 silly packumentCache full:https://registry.npmmirror.com/dayjs set size:59028 disposed:false
+128 silly fetch manifest expressive-code-collapsible@^0.1.0
+129 silly packumentCache full:https://registry.npmmirror.com/expressive-code-collapsible cache-miss
+130 http fetch GET 200 https://registry.npmmirror.com/expressive-code-collapsible 90ms (cache miss)
+131 silly packumentCache full:https://registry.npmmirror.com/expressive-code-collapsible set size:2842 disposed:false
+132 silly fetch manifest expressive-code-language-badge@^1.1.0
+133 silly packumentCache full:https://registry.npmmirror.com/expressive-code-language-badge cache-miss
+134 http fetch GET 200 https://registry.npmmirror.com/expressive-code-language-badge 122ms (cache miss)
+135 silly packumentCache full:https://registry.npmmirror.com/expressive-code-language-badge set size:2351 disposed:false
+136 silly fetch manifest @astrojs/starlight@>=0.34
+137 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fstarlight cache-miss
+138 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fstarlight 128ms (cache miss)
+139 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fstarlight set size:111492 disposed:false
+140 silly fetch manifest @astrojs/markdown-satteri@^0.2.0
+141 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fmarkdown-satteri cache-miss
+142 http fetch GET 200 https://registry.npmmirror.com/@astrojs%2fmarkdown-satteri 100ms (cache miss)
+143 silly packumentCache full:https://registry.npmmirror.com/@astrojs%2fmarkdown-satteri set size:3439 disposed:false
+144 silly fetch manifest astro@^6.4.5
+145 silly packumentCache full:https://registry.npmmirror.com/astro cache-miss
+146 http cache https://registry.npmmirror.com/astro 17ms (cache hit)
+147 silly packumentCache full:https://registry.npmmirror.com/astro set size:9232348 disposed:false
+148 verbose stack Error: unable to resolve dependency tree
+148 verbose stack     at #failPeerConflict (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1415:25)
+148 verbose stack     at #loadPeerSet (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1381:33)
+148 verbose stack     at async #loadPeerSet (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1349:11)
+148 verbose stack     at async #buildDepStep (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:917:11)
+148 verbose stack     at async Arborist.buildIdealTree (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:170:7)
+148 verbose stack     at async Promise.all (index 1)
+148 verbose stack     at async Arborist.reify (D:\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:111:5)
+148 verbose stack     at async Install.exec (D:\nodejs\node_modules\npm\lib\commands\install.js:146:5)
+148 verbose stack     at async Npm.exec (D:\nodejs\node_modules\npm\lib\npm.js:193:9)
+148 verbose stack     at async module.exports (D:\nodejs\node_modules\npm\lib\cli\entry.js:67:5)
+149 error code ERESOLVE
+150 error ERESOLVE unable to resolve dependency tree
+151 error
+152 error While resolving: firefly@6.10.5
+152 error Found: astro@6.3.5[2m[22m
+152 error [2mnode_modules/astro[22m
+152 error   astro@"6.3.5" from the root project
+152 error
+152 error Could not resolve dependency:
+152 error [95mpeer[39m astro@"^6.4.5" from @astrojs/starlight@0.40.0[2m[22m
+152 error [2mnode_modules/@astrojs/starlight[22m
+152 error   [95mpeer[39m @astrojs/starlight@">=0.34" from expressive-code-language-badge@1.1.0[2m[22m
+152 error   [2mnode_modules/expressive-code-language-badge[22m
+152 error     expressive-code-language-badge@"^1.1.0" from the root project
+152 error
+152 error Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.
+153 error
+153 error
+153 error For a full report see:
+153 error D:\blog\Firefly\.npm-cache\_logs\2026-06-18T15_11_26_677Z-eresolve-report.txt
+154 silly unfinished npm timer reify 1781795486925
+155 silly unfinished npm timer reify:loadTrees 1781795486927
+156 silly unfinished npm timer idealTree:buildDeps 1781795486934
+157 silly unfinished npm timer idealTree:#root 1781795486934
+158 verbose cwd D:\blog\Firefly
+159 verbose os Windows_NT 10.0.26100
+160 verbose node v24.15.0
+161 verbose npm  v11.12.1
+162 notice
+162 notice New [33mminor[39m version of npm available! [33m11.12.1[39m -> [34m11.17.0[39m
+162 notice Changelog: [34mhttps://github.com/npm/cli/releases/tag/v11.17.0[39m
+162 notice To update run: [4mnpm install -g npm@11.17.0[24m
+162 notice  { force: true, Symbol(proc-log.meta): true }
+163 verbose exit 1
+164 verbose code 1
+165 error A complete log of this run can be found in: D:\blog\Firefly\.npm-cache\_logs\2026-06-18T15_11_26_677Z-debug-0.log

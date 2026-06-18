@@ -1,0 +1,18 @@
+'Log files:
+D:\blog\Firefly\.npm-cache\_logs\2026-06-18T15_11_26_677Z-debug-0.log
+
+# npm resolution error report
+
+While resolving: firefly@6.10.5
+Found: astro@6.3.5
+node_modules/astro
+  astro@"6.3.5" from the root project
+
+Could not resolve dependency:
+peer astro@"^6.4.5" from @astrojs/starlight@0.40.0
+node_modules/@astrojs/starlight
+  peer @astrojs/starlight@">=0.34" from expressive-code-language-badge@1.1.0
+  node_modules/expressive-code-language-badge
+    expressive-code-language-badge@"^1.1.0" from the root project
+
+Fix the upstream dependency conflict, or retry this command with --force or --legacy-peer-deps to accept an incorrect (and potentially broken) dependency resolution.
