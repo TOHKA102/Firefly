@@ -2,6 +2,7 @@
 title: "这是我的第一篇博客文章" 
 published: 2026-06-19   
 description: "Blog" 
+pinied:
 image: ./images/b1.jpg  
 tags: ["随笔", "日常"] 
 category: "记录" 
